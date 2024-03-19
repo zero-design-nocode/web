@@ -33,9 +33,9 @@ if (process.env.NODE_ENV === "development" || process.env.VUE_APP_IS_STAGING) {
   baseStaticURL = "http://127.0.0.1:8080"
 } else {
   // 生产环境 URL
-  baseBackendURL = "http://127.0.0.1:3000"
-  baseH5URL = "http://127.0.0.1:8082"
-  baseStaticURL = "http://127.0.0.1:8080"
+  baseBackendURL = "http://design.wei-jia.top"
+  baseH5URL = "https://h5.wei-jia.top"
+  baseStaticURL = "https://aliyun.wei-jia.top"
 }
 
 export { baseBackendURL, baseH5URL, baseStaticURL }

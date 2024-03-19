@@ -7,7 +7,7 @@ const isStaging = !!process.env.VUE_APP_IS_STAGING
 const isProduction = process.env.NODE_ENV === "production"
 
 module.exports = {
-  publicPath: isProduction && !isStaging ? "https://design.wei-jia.top" : "/",
+  publicPath: isProduction && !isStaging ? "http://design.wei-jia.top" : "/",
   css: {
     loaderOptions: {
       less: {
